@@ -1,0 +1,159 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+  
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.section-padding.round-bg:after {background: url(img/bg.jpg)}
+
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-padding.round-bg {
+  position: relative;
+  z-index: 1;
+}
+.section-padding.round-bg:after {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  content: "";
+  height: 450px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 450px;
+  z-index: -1;
+}
+.single-feature-item {
+  margin: 10px 30px 10px 50px;
+  padding-bottom: 30px;
+  padding-right: 170px;
+  padding-top: 30px;
+  position: relative;
+  text-align: right;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.single-feature-item.feature-icon-left {
+  margin-left: 55px;
+  margin-right: 30px;
+  padding-left: 170px;
+  padding-right: 0;
+  text-align: left;
+}
+.single-feature-item.feature-padding-left {
+  margin-left: 120px;
+  margin-right: 0;
+}
+.single-feature-item.feature-padding-right {
+  margin-left: 0;
+  margin-right: 120px;
+}
+.single-feature-item .feature-icon {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  height: 150px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 150px;
+}
+.feature-icon-left .feature-icon {
+  left: 0;
+  right: auto;
+}
+.single-feature-item .feature-icon i.fa {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  color: #3c92ca;
+  display: inline-block;
+  font-size: 60px;
+  height: 100%;
+  line-height: 120px;
+  width: 100%;
+}
+.single-feature-item h2 {
+  font-size: 22px;
+}
+.single-feature-item p {
+  color: #6b6b6b;
+  line-height: 30px;
+  margin: 0;
+}
+.single-feature-item:hover .feature-icon {
+    box-shadow: 10px 10px 5px #c2c2c2;
+}
+.col-md-6:nth-child(2n):hover .single-feature-item .feature-icon {
+  box-shadow: -10px -10px 5px #c2c2c2;
+}

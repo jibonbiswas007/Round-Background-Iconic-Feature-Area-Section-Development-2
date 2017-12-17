@@ -1,0 +1,84 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.single-feature-item {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+    
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.round-bg::after {
+	display: none;
+}
+
+.round-bg {
+  background: #ddd url("img/bg_2.jpg") repeat scroll center center / cover ;
+}
+.single-feature-item {
+  color: #fff;
+  margin: 10px 30px 10px 0;
+  text-align: left;
+}
+.single-feature-item p {
+  color: #fff;
+}
+.single-feature-item .feature-icon {
+  margin-bottom: 20px;
+  position: relative;
+}
+.single-feature-item.feature-icon-left {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 170px;
+}
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.round-bg::after {
+	display: none;
+}
+.round-bg {
+  background: #ddd url("img/bg_2.jpg") repeat scroll center center / cover ;
+}
+.single-feature-item {
+  color: #fff;
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: left;
+}
+.single-feature-item p {
+	color: #fff;
+}
+
+.single-feature-item .feature-icon {
+  margin-bottom: 20px;
+  position: relative;
+}
+.single-feature-item.feature-icon-left {
+  margin: 15px 0;
+  padding: 0;
+}
+
+
+
+
+}
+    
+    
+    
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+
+
+
+}
